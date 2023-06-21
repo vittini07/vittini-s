@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vittini´s - Tu mejor versión</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+
+         {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          }
+          
+         
+          body
+           {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f5f5f5;
+          }
+          
+          .container
+           {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 40px;
+          }
+          
+          h1, h2, h3
+           {
+            color: #333;
+          }
+          
+          p 
+          {
+            margin-bottom: 20px;
+          }
+          
+          a
+           {
+            color: #333;
+            text-decoration: none;
+          }
+          
+          ul
+           {
+            list-style: none;
+          }
+          
+          .btn
+           {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+          }
+          
+          .btn:hover
+           {
+            background-color: #555;
+          }
+          
+          
+          header
+           {
+            background-color: #f8f8f8;
+            text-align: center;
+            padding: 40px 0;
+          }
+          
+          nav ul
+           {
+            margin-top: 20px;
+          }
+          
+          nav ul li
+           {
+            display: inline-block;
+            margin: 0 10px;
+          }
+          
+          
+          #about
+           {
+            background-color: #fff;
+            padding: 80px 0;
+          }
+          
+          
+          #services
+           {
+            background-color: #f8f8f8;
+            padding: 80px 0;
+          }
+          
+          .service
+           {
+            text-align: center;
+            margin-bottom: 40px;
+          }
+          
+          .service img 
+          {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+          }
+          
+         
+          #contact
+           {
+            background-color: #fff;
+            padding: 80px 0;
+          }
+          
+          form input,
+          form textarea 
+          {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+          }
+          
+          form button
+           {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+          }
+          
+          form button:hover
+           {
+            background-color: #555;
+          }
+          
+          
+          footer
+           {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+          }
+          
+          footer p
+           {
+            margin: 0;
+          }
+          </style>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">Acerca de nosotros</a></li>
+        <li><a href="#services">Nuestros servicios</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+    <h1>Vittini´s</h1> 
+    <p>¡Encuentra tu mejor versión!</p>
+    <a href="#contact" class="btn">Únete ahora</a>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>Acerca de nosotros</h2>
+      <p>En Vittini´s, nos dedicamos a ayudar a las personas a alcanzar sus metas de fitness y bienestar. Nuestro equipo de entrenadores altamente capacitados está comprometido en brindar un apoyo personalizado a cada uno de nuestros miembros.</p>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="container">
+      <h2>Nuestros servicios</h2>
+      <div class="service">
+        <img src="service-1.jpg" alt="Entrenamiento personalizado">
+        <h3>Entrenamiento personalizado</h3>
+        <p>Nuestros entrenadores diseñarán un programa de entrenamiento específico para tus necesidades y objetivos individuales.</p>
+      </div>
+      <div class="service">
+        <img src="service-2.jpg" alt="Clases grupales">
+        <h3>Clases grupales</h3>
+        <p>Ofrecemos una amplia variedad de clases grupales, desde yoga hasta cardio intenso. ¡Hay algo para todos los gustos!</p>
+      </div>
+      <div class="service">
+        <img src="service-3.jpg" alt="Asesoramiento nutricional">
+        <h3>Asesoramiento nutricional</h3>
+        <p>Nuestros expertos en nutrición te brindarán consejos y pautas personalizadas para ayudarte a alcanzar una alimentación saludable.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contacto</h2>
+      <p>Si estás listo para comenzar tu viaje de fitness con nosotros o si tienes alguna pregunta, no dudes en ponerte en contacto.</p>
+      <form action="submit.php" method="POST">
+        <input type="text" name="name" placeholder="Nombre" required>
+        <input type="email" name="email" placeholder="Correo electrónico" required>
+        <textarea name="message" placeholder="Mensaje" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 Vittini´s. Todos los derechos reservados.</p>
+  </footer>
+
+  <script> 
